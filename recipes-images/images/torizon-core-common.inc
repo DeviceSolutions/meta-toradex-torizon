@@ -62,6 +62,9 @@ CORE_IMAGE_BASE_INSTALL:append = " \
     vim-tiny \
     wireguard-tools \
     zram \
+    libgpiod \
+    libgpiod-tools \
+    libgpiod-dev \
 "
 
 CORE_IMAGE_BASE_INSTALL:append:tdx = " \
