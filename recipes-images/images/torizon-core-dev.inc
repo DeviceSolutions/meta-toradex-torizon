@@ -6,6 +6,7 @@ CORE_IMAGE_BASE_INSTALL:append = "\
     valgrind \
     perf \
     trace-cmd \
+    alsa-utils \
 "
 
 IMAGE_FEATURES:append = "\
