@@ -65,6 +65,9 @@ CORE_IMAGE_BASE_INSTALL:append = " \
     libgpiod \
     libgpiod-tools \
     libgpiod-dev \
+    alsa-utils \
+    alsa-plugins \
+    alsa-tools \
 "
 
 CORE_IMAGE_BASE_INSTALL:append:tdx = " \
